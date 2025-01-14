@@ -93,7 +93,6 @@ public class StoveCounter : BaseCounter, IHasProgress
                 case State.Burnt:
                     break;
             }
-            Debug.Log(state);
         }
     }
 

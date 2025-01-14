@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0c2bee3c7e75794e9e4889246ac3a8a, type: 3}
-  m_Name: NoCheeseBurger
+  m_Name: Salad
   m_EditorClassIdentifier: 
-  kitchenObjectSOList:
-  - {fileID: 11400000, guid: 14e2136e981c1054984a0b8f6f202f51, type: 2}
-  - {fileID: 11400000, guid: 098fc01aba4cb0d44b38eace8f37c9d8, type: 2}
-  - {fileID: 11400000, guid: dff2e37eb700ae4459a35fe4245da96d, type: 2}
-  - {fileID: 11400000, guid: 02ffd7c9cae5f594b9a01665954b2065, type: 2}
+  kitchenObjectSOList: []
   recipeName: 

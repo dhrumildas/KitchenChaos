@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b87fdd46488204bbcee9415dcb5c04, type: 3}
+  m_Name: Cooked-BurntSO
+  m_EditorClassIdentifier: 
+  input: {fileID: 11400000, guid: 098fc01aba4cb0d44b38eace8f37c9d8, type: 2}
+  output: {fileID: 11400000, guid: 10ac63811e164da4fa5d31d71411cdb7, type: 2}
+  burningTimerMAX: 4

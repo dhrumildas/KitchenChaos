@@ -30,4 +30,11 @@ public class DeliveryManager : MonoBehaviour
             }
         }
     }
+    public void DeliverRecipe(PlateKitchenObj plateKitchenObj)
+    {
+        for (int i = 0; i < waitingRecipeSOList.Count; i++) //  going through the entire menu requests
+        {
+            
+        }
+    }
 }

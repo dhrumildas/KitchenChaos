@@ -10,6 +10,7 @@ public class DeliveryCounter : BaseCounter
         {
             if(player.GetKitchenObject().TryGetPlate(out PlateKitchenObj plateKitchenObj))  //Tries to see if the kitchenObj in player's hands is a plate
             {
+                DeliveryManager.Instance.DeliverRecipe(plateKitchenObj);  //Deliver the plate to the DeliveryManager
                 player.GetKitchenObject().DestroyTheObj();  //Bye bye plate
             }
         }

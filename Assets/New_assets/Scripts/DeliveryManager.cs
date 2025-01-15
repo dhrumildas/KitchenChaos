@@ -31,4 +31,13 @@ public class DeliveryManager : MonoBehaviour
             }
         }
     }
+
+    public void DeliverRecipe(PlateKitchenObj plateKitchenObj)  // to see if the contents of the plate match the recipe
+    {
+        for(int i =0; i < waitingRecipeSOList.Count; i++)   // Going through the waiting menu items
+        {
+            MenuSO waitingRecipeSO = waitingRecipeSOList[i];    // Getting the waiting menu item
+
+        }
+    }
 }

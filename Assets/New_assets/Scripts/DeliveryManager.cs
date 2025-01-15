@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class DeliveryManager : MonoBehaviour
 {
-    [SerializeField] private MainListSO recipeListSO;
-    private List<RecipeListSO> waitingRecipeSOList;
-
+    [SerializeField] private RecipeListSO recipeListSO;
+    private List<MenuSO> waitingRecipeSOList;
     private float spawnRecipeTimer;
     private float spawnRecipeTimerMax = 4f;
-    private int waitingRecipesMax = 4;
+    private int maxWaitingRecipeCount = 5;
 
     private void Awake()
     {
-        waitingRecipeSOList = new List<RecipeListSO>();
+        waitingRecipeSOList = new List<MenuSO>();
     }
+
     private void Update()
     {
         spawnRecipeTimer -= Time.deltaTime;
@@ -22,19 +22,13 @@ public class DeliveryManager : MonoBehaviour
         {
             spawnRecipeTimer = spawnRecipeTimerMax;
 
-            if (waitingRecipeSOList.Count < waitingRecipesMax)
+            if (waitingRecipeSOList.Count < maxWaitingRecipeCount)
             {
-                RecipeListSO waitingRecipeSO = recipeListSO.mainRecipeSOList[Random.Range(0, recipeListSO.mainRecipeSOList.Count)];
-                Debug.Log(waitingRecipeSO.recipeName);
+
+                MenuSO waitingRecipeSO = recipeListSO.recipeSOList[Random.Range(0, recipeListSO.recipeSOList.Count)];
+                Debug.Log("Waiting Recipe: " + waitingRecipeSO.menuName);
                 waitingRecipeSOList.Add(waitingRecipeSO);
             }
-        }
-    }
-    public void DeliverRecipe(PlateKitchenObj plateKitchenObj)
-    {
-        for (int i = 0; i < waitingRecipeSOList.Count; i++) //  going through the entire menu requests
-        {
-            
         }
     }
 }

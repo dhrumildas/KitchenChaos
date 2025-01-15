@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7193e048467074786c03839f16fec2, type: 3}
   m_Name: Salad
   m_EditorClassIdentifier: 
-  menuItemSOList: []
-  menuName: 
+  menuItemSOList:
+  - {fileID: 11400000, guid: 02ffd7c9cae5f594b9a01665954b2065, type: 2}
+  - {fileID: 11400000, guid: dff2e37eb700ae4459a35fe4245da96d, type: 2}
+  menuName: Salad

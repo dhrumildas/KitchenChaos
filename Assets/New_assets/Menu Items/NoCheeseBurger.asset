@@ -15,4 +15,6 @@ MonoBehaviour:
   menuItemSOList:
   - {fileID: 11400000, guid: 098fc01aba4cb0d44b38eace8f37c9d8, type: 2}
   - {fileID: 11400000, guid: 14e2136e981c1054984a0b8f6f202f51, type: 2}
-  menuName: Burger
+  - {fileID: 11400000, guid: dff2e37eb700ae4459a35fe4245da96d, type: 2}
+  - {fileID: 11400000, guid: 02ffd7c9cae5f594b9a01665954b2065, type: 2}
+  menuName: NoCheeseBurger

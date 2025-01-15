@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu()]
+//[CreateAssetMenu()]
 public class RecipeListSO : ScriptableObject
 {
-    public List<KitchenObjectSO> kitchenObjectSOList;
-    public string recipeName;
+    public List<MenuSO> recipeSOList;
 }

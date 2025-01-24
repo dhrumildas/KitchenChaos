@@ -70,4 +70,9 @@ public class DeliveryManager : MonoBehaviour
         // If we reach here, the plate contents did not match any of the waiting recipes
         Debug.Log("Incorrect!");
     }
+
+    public List<MenuSO> GetWaitingRecipeSOList()
+    {
+        return waitingRecipeSOList;
+    }
 }
